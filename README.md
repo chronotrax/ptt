@@ -69,6 +69,9 @@ discover and attempt to run them.
 ## Options
 
 - Use Environment Variables before running PTT to use these options.
+- `PTT_ADDR`
+  - `address`:`port` to listen on.
+  - default = `:8080`.
 - `JSON=FALSE`
   - Disables logging as JSON.
 - `LOG_LEVEL=2`
